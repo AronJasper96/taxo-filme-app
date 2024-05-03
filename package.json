@@ -5,7 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "test": "mocha teste/teste.js",
-    "start": "node index.ts",
+    "start": "ts-node index.ts",
     "dev": "nodemon --exec ts-node index.ts"
   },
   "author": "Aron Jasper Maziero",
