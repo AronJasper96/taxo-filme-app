@@ -1,0 +1,24 @@
+# Dependências
+node_modules/
+
+# Arquivos de build
+build/
+dist/
+
+# Arquivos de ambiente
+.env
+
+# Logs
+logs/
+*.log
+
+# Arquivos temporários
+.tmp/
+
+# Arquivos gerados por editores de texto
+.vscode/
+.idea/
+
+# Arquivos de cache
+.npm/
+yarn-error.log
