@@ -1,0 +1,29 @@
+{
+  "name": "filmes-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "mocha teste/teste.js",
+    "start": "node index.ts",
+    "dev": "nodemon --exec ts-node index.ts"
+  },
+  "author": "Aron Jasper Maziero",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "axios": "^1.6.8",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "h2": "^0.3.0",
+    "nodemon": "^3.1.0",
+    "sqlite3": "^5.1.7",
+    "swagger-ui-express": "^5.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "mocha": "^10.4.0"
+  }
+}
